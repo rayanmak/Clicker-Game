@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>cookie clicker</title>
+</head>
+<body>
+    <header>
+        <h1>Clicker Game</h1>
+    </header>
+    <section>
+        <div class="main">
+            <div class="left">
+                <h3>Gem : <span class="gem-count">0</span></h3>
+                <img class="gem-image" src="assets/gem.gif" alt="" onclick="addGem()" draggable="false">
+                <p class="click-second"><span class="click-per-second">0</span> par seconde</p>
+            </div>
+            <div class="right">
+                <h3>Upgrades</h3>
+                <div class="upgrade" onclick=" buyClicker() ">
+                    <div class="left-upgrade">
+                        <img src="assets/clicker.png" alt="" draggable="false">
+                    </div>
+                    <div class="mid-upgrade">
+                        <h4>Clicker</h4>
+                        <p>Cost : <span class="clicker-cost">10</span></p>
+                    </div>
+                    <div class="right-upgrade">
+                        <h2>LVL <span class="level-clicker">0</span></h2>
+                    </div>
+                </div>
+                <!-- <div class="upgrade" onclick="buyPickaxe()">
+                    <div class="left-upgrade">
+                        <img src="assets/pickaxe.png" alt="" draggable="false">
+                    </div>
+                    <div class="mid-upgrade">
+                        <h4>Pickaxe</h4>
+                        <p>Cost : <span class="pickaxe-cost">100</span></p>
+                    </div>
+                    <div class="right-upgrade">
+                        <h2>LVL <span class="level-pickaxe">0</span></h2>
+                    </div>
+                </div>
+                <div class="upgrade" onclick="buyHomeless()">
+                    <div class="left-upgrade">
+                        <img src="assets/homeless.png" alt="" draggable="false">
+                    </div>
+                    <div class="mid-upgrade">
+                        <h4>Homeless</h4>
+                        <p>Cost : <span class="homeless-cost">1000</span></p>
+                    </div>
+                    <div class="right-upgrade">
+                        <h2>LVL <span class="level-homeless">0</span></h2>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
